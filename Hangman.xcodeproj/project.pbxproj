@@ -14,6 +14,9 @@
 		5343B9341C025FC1005F4AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5343B9321C025FC1005F4AFE /* LaunchScreen.storyboard */; };
 		5343B93F1C025FC1005F4AFE /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5343B93E1C025FC1005F4AFE /* HangmanTests.swift */; };
 		5343B94A1C025FC2005F4AFE /* HangmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5343B9491C025FC2005F4AFE /* HangmanUITests.swift */; };
+		53FD45A51C035A9400FDC664 /* DESIGN.md in Sources */ = {isa = PBXBuildFile; fileRef = 53FD45A21C035A9400FDC664 /* DESIGN.md */; };
+		53FD45A61C035A9400FDC664 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 53FD45A31C035A9400FDC664 /* README.md */; };
+		53FD45A71C035A9400FDC664 /* Sketches.md in Sources */ = {isa = PBXBuildFile; fileRef = 53FD45A41C035A9400FDC664 /* Sketches.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		5343B9451C025FC1005F4AFE /* HangmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5343B9491C025FC2005F4AFE /* HangmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanUITests.swift; sourceTree = "<group>"; };
 		5343B94B1C025FC2005F4AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FD45A21C035A9400FDC664 /* DESIGN.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = DESIGN.md; path = "../../../../../Downloads/EvilHangmanProposal-master/DESIGN.md"; sourceTree = "<group>"; };
+		53FD45A31C035A9400FDC664 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../../Downloads/EvilHangmanProposal-master/README.md"; sourceTree = "<group>"; };
+		53FD45A41C035A9400FDC664 /* Sketches.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Sketches.md; path = "../../../../../Downloads/EvilHangmanProposal-master/Sketches.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				5343B9301C025FC1005F4AFE /* Assets.xcassets */,
 				5343B9321C025FC1005F4AFE /* LaunchScreen.storyboard */,
 				5343B9351C025FC1005F4AFE /* Info.plist */,
+				53FD45A21C035A9400FDC664 /* DESIGN.md */,
+				53FD45A31C035A9400FDC664 /* README.md */,
+				53FD45A41C035A9400FDC664 /* Sketches.md */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FD45A51C035A9400FDC664 /* DESIGN.md in Sources */,
+				53FD45A71C035A9400FDC664 /* Sketches.md in Sources */,
 				5343B92C1C025FC1005F4AFE /* ViewController.swift in Sources */,
+				53FD45A61C035A9400FDC664 /* README.md in Sources */,
 				5343B92A1C025FC1005F4AFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +496,7 @@
 				5343B9501C025FC2005F4AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5343B9511C025FC2005F4AFE /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				5343B9531C025FC2005F4AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5343B9541C025FC2005F4AFE /* Build configuration list for PBXNativeTarget "HangmanUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				5343B9561C025FC2005F4AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
