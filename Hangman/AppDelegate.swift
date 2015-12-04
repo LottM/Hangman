@@ -15,6 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        // Split words from WoordenLijst by characters.
+        gameStart.splitWordsByCharacters()
+        
+        // Display dashes for amount of letters in word.
+        displayDashForLetters.wordToBeGuessed()
+        
+        // If user guessed right, display letter in word.
+        responseToGuessUser.guessedRight()
+        
+        // If user guessed wrong, display lives minus one.
+        responseToGuessUser.guessedWrong()
+        
         // Override point for customization after application launch.
         return true
     }
